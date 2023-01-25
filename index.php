@@ -1,3 +1,15 @@
+<?php
+    require 'autoloader.php';
+
+    use app\models\Jeu;
+    use app\models\JeuBateau;
+    use app\models\JetDeDes;
+    use app\models\Joueur;
+    use app\models\Partie;
+    use app\models\Utilisateur;
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,6 +18,7 @@
 </head>
 <body>
 <?php
+
     echo "<h1>Dédé à la Forme !!</h1>";
 ?>
 </body>

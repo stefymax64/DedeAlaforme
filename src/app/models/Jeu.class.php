@@ -1,14 +1,21 @@
 <?php
 namespace app\models;
 
-class Partie{
-    // Déclaration des attributs
-    private string $date_heure;
-    private int $score;
+// Création de la classe
+abstract class Jeu{
+    // Déclaration des méthodes
+    public function __construct(
+        // Déclaration des attributs
+        protected ?string $regles = null
+    )
+    {}
 
-    //Déclaration des méthodes
-    public function partie() : bool{
-        return true;
+    public function afficherClassement() : void{
+        
+    }
+
+    public function top3() : void{
+
     }
 }
 

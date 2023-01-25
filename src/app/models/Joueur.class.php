@@ -1,14 +1,11 @@
 <?php
 namespace app\models;
 
-class Partie{
-    // Déclaration des attributs
-    private string $date_heure;
-    private int $score;
-
+// Création de la classe
+class Joueur extends Utilisateur{
     //Déclaration des méthodes
-    public function partie() : bool{
-        return true;
+    public function lancerPartie() : void{
+        
     }
 }
 
