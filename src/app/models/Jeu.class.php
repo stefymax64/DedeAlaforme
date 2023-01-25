@@ -2,13 +2,15 @@
 namespace app\models;
 
 // Création de la classe
-abstract class Jeu{
+abstract class Jeu extends Partie{
     // Déclaration des méthodes
     public function __construct(
         // Déclaration des attributs
         protected ?string $regles = null
     )
-    {}
+    {
+        $this->regles = $regles;
+    }
 
     public function afficherClassement() : void{
         
@@ -19,5 +21,8 @@ abstract class Jeu{
     }
 }
 
+$jeu = new Jeu();
+$jeu->afficherClassement();
+$jeu->top3();
 
 ?>

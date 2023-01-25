@@ -9,5 +9,6 @@ class Joueur extends Utilisateur{
     }
 }
 
-
+$joueur = new Joueur($id_user);
+$joueur->lancerPartie();
 ?>

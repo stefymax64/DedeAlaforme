@@ -10,9 +10,14 @@ class Partie{
         private ?int $score = null,
         private ?bool $gagner = false
     )
-    {}
+    {
+        $this->date_heure = $date_heure;
+        $this->score = $score;
+        $this->gagner = $gagner;
+    }
     
 }
 
+$partie = new Partie();
 
 ?>

@@ -1,5 +1,5 @@
 <?php
-    require 'autoloader.php';
+    require 'autoload.php';
 
     use app\models\Jeu;
     use app\models\JeuBateau;
