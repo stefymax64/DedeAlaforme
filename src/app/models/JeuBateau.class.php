@@ -43,6 +43,7 @@ class JeuBateau extends JeuDeDes{
     
     //Vérifier si il y a un 6 => le bateau
     
+    
     //Vérifier si il y a un 5 => le capitaine
 
     //Vérifier si il y a un 4 => l'équipage
