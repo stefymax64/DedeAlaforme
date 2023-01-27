@@ -18,6 +18,16 @@ class Utilisateur{
         $this->droit = $droit;
     }
 
+    //Accesseurs
+    public function __set($name, $value)
+    {
+        $this->$name = $value;
+    }
+
+    public function __get($name){
+        return $this->name;
+    }
+
     public function connecter() : bool {
         return true;
     }
@@ -31,7 +41,16 @@ class Utilisateur{
     }
 }
 
+//Instanciation de l'objet
 $utilisateur = new Utilisateur($id_user);
+
+//Appel de la propriété de l'objet
+$this->id_user;
+$this->login;
+$this->mdp;
+$this->droit;
+
+//Appel de la méthide de l'objet
 $utilisateur->connecter();
 $utilisateur->deconnecter();
 $utilisateur->inscription($id_user);

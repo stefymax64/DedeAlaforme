@@ -41,7 +41,7 @@ echo '</pre>';
     if(in_array(6, $array_dice, true)){
         echo "1- Bien joué, vous avez votre bateau !";
         //     on retire le dès de 6
-        
+        unset($val_one);
         
         
         

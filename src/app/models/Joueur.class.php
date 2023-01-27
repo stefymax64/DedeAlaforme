@@ -5,10 +5,13 @@ namespace app\models;
 class Joueur extends Utilisateur{
     //Déclaration des méthodes
     public function lancerPartie() : void{
-        
+        $partie = new Partie(date("d/m/Y H:i:s"), 0, false);
+            echo "Démarrer la partie";
     }
 }
-
+//Instanciation de l'objet
 $joueur = new Joueur($id_user);
+
+//Appel de la méthide de l'objet
 $joueur->lancerPartie();
 ?>

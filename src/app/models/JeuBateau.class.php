@@ -40,16 +40,6 @@ class JeuBateau extends JeuDeDes{
         return $this->name;
     }
 
-    
-    //Vérifier si il y a un 6 => le bateau
-    
-    
-    //Vérifier si il y a un 5 => le capitaine
-
-    //Vérifier si il y a un 4 => l'équipage
-
-    //Vérifier si toutes les conditions sont réunies => l'équipage complet
-
     // Traitement du Lancer méthode dans JeuDeDes en décrémentation
     public function traitementLancer(){
         $this->nb_des--;
@@ -57,11 +47,16 @@ class JeuBateau extends JeuDeDes{
     
 }
 
+//Instanciation de l'objet
 $jeu_bateau = new JeuBateau();
+
+//Appel de la propriété de l'objet
 $this->bateau;
 $this->capitaine;
 $this->equipage;
 $this->equipage_complet;
 
-
+//Appel de la méthide de l'objet
+$lancerdede->lancerDes();
+$jeu_bateau->traitementLancer();
 ?>

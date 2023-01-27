@@ -15,9 +15,24 @@ class Partie{
         $this->score = $score;
         $this->gagner = $gagner;
     }
+
+    //Accesseurs
+    public function __set($name, $value)
+    {
+        $this->$name = $value;
+    }
+
+    public function __get($name){
+        return $this->name;
+    }
     
 }
 
+//Instanciation de l'objet
 $partie = new Partie();
 
+//Appel de la propriété de l'objet
+$this->date_heure;
+$this->score;
+$this->gagner;
 ?>
