@@ -21,6 +21,11 @@
 <?php
 
     echo "<h1>Dédé à la Forme !!</h1>";
+
+    //Instanciation de l'objet
+   
+    //Appel de la méthode de l'objet
+    
     
 ?>
 </body>

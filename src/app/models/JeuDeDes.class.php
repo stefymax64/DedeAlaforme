@@ -2,7 +2,7 @@
 namespace app\models;
 
 // Création de la classe
-abstract class JeuDeDes extends Jeu implements ValeurdeDes{
+abstract class JeuDeDes extends Jeu {
     // Déclaration des méthodes
     public function __construct(
         // Déclaration des attributs
@@ -17,7 +17,9 @@ abstract class JeuDeDes extends Jeu implements ValeurdeDes{
         $this->tableDeParLancer = $tableDeParLancer;
         $this->tab_des = $tab_des;
 
-        
+        for ($i=0; $i < 0; $i++) { 
+            array_push($tab_des[$this->Des]);
+        }
     }
 
    //Accesseurs
@@ -60,7 +62,7 @@ $this->nb_lancer_des;
 $this->tableDeParLancer;
 $this->tab_des;
 
-//Appel de la méthide de l'objet
+//Appel de la méthode de l'objet
 $lancerdede->lancerDes();
 $lancerdede->jetDeDes();
 $lancerdede->faceDes();

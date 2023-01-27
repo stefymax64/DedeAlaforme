@@ -12,6 +12,6 @@ class Joueur extends Utilisateur{
 //Instanciation de l'objet
 $joueur = new Joueur($id_user);
 
-//Appel de la méthide de l'objet
+//Appel de la méthode de l'objet
 $joueur->lancerPartie();
 ?>

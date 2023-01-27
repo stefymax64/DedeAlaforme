@@ -56,7 +56,7 @@ $this->capitaine;
 $this->equipage;
 $this->equipage_complet;
 
-//Appel de la méthide de l'objet
+//Appel de la méthode de l'objet
 $lancerdede->lancerDes();
 $jeu_bateau->traitementLancer();
 ?>

@@ -38,7 +38,7 @@ $jeu = new Jeu();
 //Appel de la propriété de l'objet
 $this->regles;
 
-//Appel de la méthide de l'objet
+//Appel de la méthode de l'objet
 $jeu->afficherClassement();
 $jeu->top3();
 

@@ -50,7 +50,7 @@ $this->login;
 $this->mdp;
 $this->droit;
 
-//Appel de la méthide de l'objet
+//Appel de la méthode de l'objet
 $utilisateur->connecter();
 $utilisateur->deconnecter();
 $utilisateur->inscription($id_user);

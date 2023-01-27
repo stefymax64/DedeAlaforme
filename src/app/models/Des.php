@@ -1,11 +1,8 @@
 <?php
 namespace app\models;
 
-interface ValeurdeDes{
-    public function faceDes();
-}
 // Création de la classe
-class Des implements ValeurdeDes{
+class Des{
     // Déclaration des méthodes
     public function __construct(
         // Déclaration des attributs
@@ -43,6 +40,6 @@ $this->nb_face;
 $this->image_face;
 $this->tab_face;
 
-//Appel de la méthide de l'objet
+//Appel de la méthode de l'objet
 $des->faceDes();
 ?>
